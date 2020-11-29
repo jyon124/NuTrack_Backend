@@ -29,7 +29,7 @@ ActiveRecord::Schema.define(version: 2020_11_29_054202) do
     t.string "password_digest"
     t.string "name"
     t.string "email"
-    t.integer "bmi", default: 0
+    t.integer "bmr", default: 0
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end

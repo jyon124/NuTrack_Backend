@@ -24,7 +24,7 @@ class Api::V1::UsersController < ApplicationController
   def update
     @user = User.find_by(id: params['id'])
     if @user
-      @user.update(name: params['name'], email: params['email'], password: params['password'], bmi: params['bmi'])
+      @user.update(user_params)
       render json: @user
     else 
       render json: { error: 'Page not found' }, status: 404
@@ -34,7 +34,7 @@ class Api::V1::UsersController < ApplicationController
   private
  
   def user_params
-    params.require(:user).permit(:username, :password, :name, :bmi, :email)
+    params.require(:user).permit(:username, :password, :name, :bmr, :email)
   end
 
 end

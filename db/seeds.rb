@@ -1,7 +1,7 @@
 # User.destroy_all
 # NutritionReport.destroy_all
 
-User.create(name: "administrator", username: "adminuseraccount", email: "test@mail.com", password_digest: "123", bmi: 0)
+User.create(name: "administrator", username: "adminuseraccount", email: "test@mail.com", password_digest: "123", bmr: 0)
 intakes = [
   { 
     calories: 267,
