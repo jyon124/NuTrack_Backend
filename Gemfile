@@ -15,6 +15,9 @@ gem 'puma', '~> 4.1'
 # gem 'redis', '~> 4.0'
 # Use Active Model has_secure_password
 gem 'bcrypt', '~> 3.1.7'
+gem "http"
+gem 'pry'
+gem 'rest-client'
 gem "jwt", "~> 2.2"
 gem "active_model_serializers", "~> 0.10.10"
 gem "faker", "~> 2.1"
