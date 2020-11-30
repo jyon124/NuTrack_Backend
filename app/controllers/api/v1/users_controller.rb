@@ -1,6 +1,5 @@
 class Api::V1::UsersController < ApplicationController
-    skip_before_action :authorized, only: [:create, :update]
-    # skip_before_action :authorized, only: [:create, :profile]
+    skip_before_action :authorized, only: [:create]
 
   def profile
     render json: { user: UserSerializer.new(current_user) }, status: :accepted
@@ -18,11 +17,12 @@ class Api::V1::UsersController < ApplicationController
 
   def update
     @user = current_user
-    if @user
+    # puts @user.errors.full_messages
+    if @user.valid?
         @user.update(bmr: update_user_params[:bmr])
-        # puts @user.errors.full_messages
-        render json: @user
-    else
+        @token = encode_token({ user_id: @user.id })
+        render json: { user: UserSerializer.new(@user), jwt: @token }, status: :accepted
+      else
         render json: { message: 'Unable to update your BMR. Please verify your account.'}
     end
   end
