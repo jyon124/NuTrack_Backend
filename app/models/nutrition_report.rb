@@ -6,6 +6,6 @@ class NutritionReport < ApplicationRecord
     validates :intakeDate, presence: { message: "Must be given please" }
     validates :intakes, presence: { message: "Must be given please" }
 
-    validates :reportName, length: { minimum: 2 }
+    validates :reportName, length: { minimum: 1 }
 
 end
