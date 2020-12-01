@@ -6,6 +6,7 @@ Rails.application.routes.draw do
       post '/login', to: 'auth#create'
       post '/update-profile', to: 'users#update'
       get '/profile', to: 'users#profile'
+      delete '/delete-account', to: 'users#destroy'
     end
   end
   resources :nutrition_reports
