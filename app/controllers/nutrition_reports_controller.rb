@@ -2,7 +2,7 @@ class NutritionReportsController < ApplicationController
   # skip_before_action :authorized, only: [:index]
   
   def index
-    @nutritionreports = NutritionReport.all
+    @nutritionreports = NutritionReport.all.select { |report| report.user_id == current_user.id }
     render json: @nutritionreports
   end
 
