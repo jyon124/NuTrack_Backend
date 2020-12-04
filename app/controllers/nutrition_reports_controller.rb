@@ -31,7 +31,7 @@ class NutritionReportsController < ApplicationController
   end
 
   def destroy
-    @nutritionreport = NutritionrReport.find(params['id'])
+    @nutritionreport = NutritionReport.find_by(id: params['id'])
     @nutritionreport.destroy
     render json: {message:"Successfuly deleted"}, status: :no_content
   end
