@@ -1,0 +1,15 @@
+current directory: /Users/jooyonwon/Development/code/projects/nutrack/nutrack-backend/vendor/bundle/ruby/3.0.0/gems/bootsnap-1.12.0/ext/bootsnap
+/Users/jooyonwon/.rvm/rubies/ruby-3.0.3/bin/ruby -I /Users/jooyonwon/.rvm/rubies/ruby-3.0.3/lib/ruby/3.0.0 -r ./siteconf20220709-41170-8vgjza.rb extconf.rb
+creating Makefile
+
+current directory: /Users/jooyonwon/Development/code/projects/nutrack/nutrack-backend/vendor/bundle/ruby/3.0.0/gems/bootsnap-1.12.0/ext/bootsnap
+make DESTDIR\= clean
+
+current directory: /Users/jooyonwon/Development/code/projects/nutrack/nutrack-backend/vendor/bundle/ruby/3.0.0/gems/bootsnap-1.12.0/ext/bootsnap
+make DESTDIR\=
+compiling bootsnap.c
+linking shared-object bootsnap/bootsnap.bundle
+
+current directory: /Users/jooyonwon/Development/code/projects/nutrack/nutrack-backend/vendor/bundle/ruby/3.0.0/gems/bootsnap-1.12.0/ext/bootsnap
+make DESTDIR\= install
+/usr/local/opt/coreutils/bin/ginstall -c -m 0755 bootsnap.bundle ./.gem.20220709-41170-fnrphl/bootsnap
