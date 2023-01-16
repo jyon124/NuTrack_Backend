@@ -1,5 +1,5 @@
 current directory: /Users/jooyonwon/Development/code/projects/nutrack/nutrack-backend/vendor/bundle/ruby/3.1.0/gems/ffi-1.15.5/ext/ffi_c
-/Users/jooyonwon/.rvm/rubies/ruby-3.1.2/bin/ruby -I /Users/jooyonwon/.rvm/rubies/ruby-3.1.2/lib/ruby/3.1.0 -r ./siteconf20230115-91064-p614ua.rb extconf.rb
+/Users/jooyonwon/.rvm/rubies/ruby-3.1.2/bin/ruby -I /Users/jooyonwon/.rvm/rubies/ruby-3.1.2/lib/ruby/3.1.0 -r ./siteconf20230115-94210-jq2t3q.rb extconf.rb
 checking for ffi_prep_closure_loc() in -lffi... yes
 checking for ffi_prep_cif_var()... yes
 checking for ffi_raw_call()... yes
@@ -40,4 +40,4 @@ linking shared-object ffi_c.bundle
 
 current directory: /Users/jooyonwon/Development/code/projects/nutrack/nutrack-backend/vendor/bundle/ruby/3.1.0/gems/ffi-1.15.5/ext/ffi_c
 make DESTDIR\= install
-/usr/local/opt/coreutils/bin/ginstall -c -m 0755 ffi_c.bundle ./.gem.20230115-91064-s37203
+/usr/local/opt/coreutils/bin/ginstall -c -m 0755 ffi_c.bundle ./.gem.20230115-94210-hl98sf

@@ -1,5 +1,7 @@
 current directory: /Users/jooyonwon/Development/code/projects/nutrack/nutrack-backend/vendor/bundle/ruby/3.1.0/gems/llhttp-ffi-0.4.0/ext
 /Users/jooyonwon/.rvm/rubies/ruby-3.1.2/bin/ruby -I/Users/jooyonwon/.rvm/rubies/ruby-3.1.2/lib/ruby/3.1.0 -rrubygems /Users/jooyonwon/Development/code/projects/nutrack/nutrack-backend/vendor/bundle/ruby/3.1.0/gems/rake-13.0.6/exe/rake RUBYARCHDIR\=/Users/jooyonwon/Development/code/projects/nutrack/nutrack-backend/vendor/bundle/ruby/3.1.0/extensions/x86_64-darwin-19/3.1.0/llhttp-ffi-0.4.0 RUBYLIBDIR\=/Users/jooyonwon/Development/code/projects/nutrack/nutrack-backend/vendor/bundle/ruby/3.1.0/extensions/x86_64-darwin-19/3.1.0/llhttp-ffi-0.4.0
+Ignoring llhttp-ffi-0.4.0 because its extensions are not built. Try: gem pristine llhttp-ffi --version 0.4.0
+Ignoring pg-1.4.5 because its extensions are not built. Try: gem pristine pg --version 1.4.5
 gcc -fexceptions -O -fno-omit-frame-pointer -fno-strict-aliasing   -o x86_64-darwin/llhttp/api.o -c ./llhttp/api.c
 mkdir -p x86_64-darwin/llhttp
 gcc -fexceptions -O -fno-omit-frame-pointer -fno-strict-aliasing   -o x86_64-darwin/llhttp/http.o -c ./llhttp/http.c

@@ -1,5 +1,5 @@
 current directory: /Users/jooyonwon/Development/code/projects/nutrack/nutrack-backend/vendor/bundle/ruby/3.1.0/gems/unf_ext-0.0.8.2/ext/unf_ext
-/Users/jooyonwon/.rvm/rubies/ruby-3.1.2/bin/ruby -I /Users/jooyonwon/.rvm/rubies/ruby-3.1.2/lib/ruby/3.1.0 -r ./siteconf20230115-91064-ggxmfk.rb extconf.rb
+/Users/jooyonwon/.rvm/rubies/ruby-3.1.2/bin/ruby -I /Users/jooyonwon/.rvm/rubies/ruby-3.1.2/lib/ruby/3.1.0 -r ./siteconf20230115-94210-zugqeb.rb extconf.rb
 checking for -lstdc++... yes
 creating Makefile
 
@@ -13,4 +13,4 @@ linking shared-object unf_ext.bundle
 
 current directory: /Users/jooyonwon/Development/code/projects/nutrack/nutrack-backend/vendor/bundle/ruby/3.1.0/gems/unf_ext-0.0.8.2/ext/unf_ext
 make DESTDIR\= install
-/usr/local/opt/coreutils/bin/ginstall -c -m 0755 unf_ext.bundle ./.gem.20230115-91064-l0enga
+/usr/local/opt/coreutils/bin/ginstall -c -m 0755 unf_ext.bundle ./.gem.20230115-94210-qizmgr
