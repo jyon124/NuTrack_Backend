@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-git_source(:github) { |repo| "https://github.com/#{repo}.git" }
+git_source(:github) { |repo| 'https://github.com/#{repo}.git' }
 
 ruby '2.6.3'
 
@@ -15,14 +15,18 @@ gem 'puma', '~> 4.1'
 # gem 'redis', '~> 4.0'
 # Use Active Model has_secure_password
 gem 'bcrypt', '~> 3.1.7'
-gem "http"
+gem 'http'
 gem 'pry'
 gem 'rest-client'
-gem "jwt", "~> 2.2"
-gem "active_model_serializers", "~> 0.10.10"
-gem "faker", "~> 2.1"
+gem 'jwt', '~> 2.2'
+gem 'active_model_serializers', '~> 0.10.10'
+gem 'faker', '~> 2.1'
 gem 'email_validator'  
 gem 'sprockets', '~>3.0'
+gem 'net-http'
+gem 'net-smtp'
+gem 'net-imap'
+gem 'uri', '0.10.0'
 
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
