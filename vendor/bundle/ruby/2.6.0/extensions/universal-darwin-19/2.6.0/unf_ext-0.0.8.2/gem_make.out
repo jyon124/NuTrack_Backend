@@ -1,0 +1,18 @@
+current directory: /Users/jooyonwon/Development/code/projects/nutrack/nutrack-backend/vendor/bundle/ruby/2.6.0/gems/unf_ext-0.0.8.2/ext/unf_ext
+/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/bin/ruby -I /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0 -r ./siteconf20230115-20166-gl5zm.rb extconf.rb
+/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/universal-darwin19/rbconfig.rb:229: warning: Insecure world writable dir /Users/jooyonwon in PATH, mode 040757
+checking for -lstdc++... yes
+creating Makefile
+
+current directory: /Users/jooyonwon/Development/code/projects/nutrack/nutrack-backend/vendor/bundle/ruby/2.6.0/gems/unf_ext-0.0.8.2/ext/unf_ext
+make "DESTDIR=" clean
+
+current directory: /Users/jooyonwon/Development/code/projects/nutrack/nutrack-backend/vendor/bundle/ruby/2.6.0/gems/unf_ext-0.0.8.2/ext/unf_ext
+make "DESTDIR="
+compiling unf.cc
+linking shared-object unf_ext.bundle
+ld: warning: directory not found for option '-L/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.Internal.sdk/usr/local/lib'
+
+current directory: /Users/jooyonwon/Development/code/projects/nutrack/nutrack-backend/vendor/bundle/ruby/2.6.0/gems/unf_ext-0.0.8.2/ext/unf_ext
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 unf_ext.bundle ./.gem.20230115-20166-1iujc5t

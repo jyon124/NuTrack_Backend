@@ -1,0 +1,23 @@
+current directory: /Users/jooyonwon/Development/code/projects/nutrack/nutrack-backend/vendor/bundle/ruby/2.6.0/gems/date-3.3.3/ext/date
+/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/bin/ruby -I /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0 -r ./siteconf20230115-20166-1r1l31f.rb extconf.rb
+/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/universal-darwin19/rbconfig.rb:229: warning: Insecure world writable dir /Users/jooyonwon in PATH, mode 040757
+checking for rb_category_warn()... no
+checking for timezone in time.h... yes
+checking for altzone in time.h... no
+creating Makefile
+
+current directory: /Users/jooyonwon/Development/code/projects/nutrack/nutrack-backend/vendor/bundle/ruby/2.6.0/gems/date-3.3.3/ext/date
+make "DESTDIR=" clean
+
+current directory: /Users/jooyonwon/Development/code/projects/nutrack/nutrack-backend/vendor/bundle/ruby/2.6.0/gems/date-3.3.3/ext/date
+make "DESTDIR="
+compiling date_core.c
+compiling date_parse.c
+compiling date_strftime.c
+compiling date_strptime.c
+linking shared-object date_core.bundle
+ld: warning: directory not found for option '-L/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.Internal.sdk/usr/local/lib'
+
+current directory: /Users/jooyonwon/Development/code/projects/nutrack/nutrack-backend/vendor/bundle/ruby/2.6.0/gems/date-3.3.3/ext/date
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 date_core.bundle ./.gem.20230115-20166-1qgtav0

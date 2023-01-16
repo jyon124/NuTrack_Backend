@@ -1,0 +1,9 @@
+current directory: /Users/jooyonwon/Development/code/projects/nutrack/nutrack-backend/vendor/bundle/ruby/2.6.0/gems/llhttp-ffi-0.4.0/ext
+/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/bin/ruby -rrubygems /Users/jooyonwon/Development/code/projects/nutrack/nutrack-backend/vendor/bundle/ruby/2.6.0/gems/rake-13.0.6/exe/rake RUBYARCHDIR\=/Users/jooyonwon/Development/code/projects/nutrack/nutrack-backend/vendor/bundle/ruby/2.6.0/extensions/universal-darwin-19/2.6.0/llhttp-ffi-0.4.0 RUBYLIBDIR\=/Users/jooyonwon/Development/code/projects/nutrack/nutrack-backend/vendor/bundle/ruby/2.6.0/extensions/universal-darwin-19/2.6.0/llhttp-ffi-0.4.0
+/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/universal-darwin19/rbconfig.rb:229: warning: Insecure world writable dir /Users/jooyonwon in PATH, mode 040757
+mkdir -p x86_64-darwin/llhttp
+xcrun clang -fexceptions -O -fno-omit-frame-pointer -fno-strict-aliasing   -o x86_64-darwin/llhttp/api.o -c ./llhttp/api.c
+xcrun clang -fexceptions -O -fno-omit-frame-pointer -fno-strict-aliasing   -o x86_64-darwin/llhttp/http.o -c ./llhttp/http.c
+xcrun clang -fexceptions -O -fno-omit-frame-pointer -fno-strict-aliasing   -o x86_64-darwin/llhttp/llhttp.o -c ./llhttp/llhttp.c
+xcrun clang -fexceptions -O -fno-omit-frame-pointer -fno-strict-aliasing   -o x86_64-darwin/llhttp/llhttp_ext.o -c ./llhttp/llhttp_ext.c
+xcrun clang -bundle -o x86_64-darwin/libllhttp-ext.bundle x86_64-darwin/llhttp/api.o x86_64-darwin/llhttp/http.o x86_64-darwin/llhttp/llhttp.o x86_64-darwin/llhttp/llhttp_ext.o -fexceptions 
