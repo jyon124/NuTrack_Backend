@@ -80,6 +80,4 @@ test:
 #
 production:
   <<: *default
-  database: nutrack_backend_production
-  username: nutrack_backend
-  password: <%= ENV['NUTRACK_BACKEND_DATABASE_PASSWORD'] %>
+  DATABASE_URLurl: <%= ENV['DATABASE_URL'] %>

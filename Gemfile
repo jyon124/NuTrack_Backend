@@ -28,6 +28,7 @@ gem 'net-smtp'
 gem 'net-imap'
 gem 'uri', '0.10.0'
 gem "nokogiri", ">= 1.6.7.rc"
+gem 'sqlite3'
 
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
