@@ -27,6 +27,7 @@ gem 'net-http'
 gem 'net-smtp'
 gem 'net-imap'
 gem 'uri', '0.10.0'
+gem "nokogiri", ">= 1.6.7.rc"
 
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
